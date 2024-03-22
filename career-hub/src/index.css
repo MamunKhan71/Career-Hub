@@ -10,4 +10,5 @@
 
 .navbar li a.active{
     color: blue;
+    font-weight: 800;
 }
