@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 
 const Navbar = () => {
     const navLink = <>
+        <li><NavLink to="/home" className="text-[#757575]">Home</NavLink></li>
         <li><NavLink to="/statistics" className="text-[#757575]">Statistics</NavLink></li>
         <li><NavLink to="/applied-jobs" className="text-[#757575]">Applied Jobs</NavLink></li>
         <li><NavLink to="/blog" className="text-[#757575]">Blog</NavLink></li>
@@ -24,7 +25,7 @@ const Navbar = () => {
                             {navLink}
                         </ul>
                     </div>
-                    <a className="font-black text-xl"><NavLink to="/">CareerHub</NavLink></a>
+                    <a className="font-black text-xl"><NavLink to="/home">CareerHub</NavLink></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="navbar menu-horizontal px-1 font-medium flex gap-8">
@@ -34,9 +35,6 @@ const Navbar = () => {
                 <div className="navbar-end">
                     <a className="font font-extrabold text-white btn bg-gradient-to-r from-[#7e90fe] to-[#9873ff]">Start Applying</a>
                 </div>
-            </div>
-            <div>
-                <Header></Header>
             </div>
         </div>
     );
