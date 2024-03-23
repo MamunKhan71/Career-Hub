@@ -9,7 +9,7 @@ const Navbar = () => {
         <li><NavLink to="/blog" className="text-[#757575]">Blog</NavLink></li>
     </>
     return (
-        <div className="bg-gradient-to-r from-[#7e90fe0d] to-[#9873ff0d]">
+        <div className="bg-gradient-to-r from-[#7e90fe0d] to-[#9873ff0d] relative">
             <div className="navbar px-0 container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">

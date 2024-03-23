@@ -41,7 +41,7 @@ const Footer = () => {
                 </footer>
                 <div className="container mx-auto">
                     <hr className="pt-12 border-t-1 border-gray-600"/>
-                    <div className="flex justify-between items-center text-white">
+                    <div className="flex justify-between items-center text-white pb-6">
                         <p>@2024 CareerHub. All Rights Reserved</p>
                         <p>Powered by CareerHub</p>
                     </div>
