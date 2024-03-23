@@ -10,9 +10,11 @@ import AppliedJob from './components/Applied Jobs/AppliedJob.jsx';
 import Blog from './components/Blog/Blog.jsx';
 import Root from './components/Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
+import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 const router = createBrowserRouter([
     {
         path: "/",
+        errorElement: <ErrorPage></ErrorPage>,
         element: <Root />,
         children: [
             {
